@@ -1,7 +1,10 @@
+.spacing{
+    padding-bottom: 35px;
+}
 .form{
     display: grid;
     margin: 25px 10% 0 10%;
-    font-weight: 300;
+    font-weight: 400;
 }
 .form label{
     padding-bottom: 5px;

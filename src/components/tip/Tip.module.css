@@ -1,0 +1,28 @@
+.spacing{
+    padding-bottom: 35px;
+}
+.form{
+    display: grid;
+}
+.tips{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 10% 0 10%;
+}
+.label{
+    font-weight: 400;
+    margin: 0 10% 5px 10%;
+}
+button{
+    background-color: rgb(18, 105, 81);
+    border: none;
+    margin: 3px;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: large;
+}
+input{
+    width: 100%;
+}

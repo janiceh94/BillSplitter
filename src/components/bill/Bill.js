@@ -3,7 +3,7 @@ import { MdAttachMoney } from "react-icons/md"
 
 export default function Bill(){
     return (
-        <div>
+        <div className={styles.spacing}>
             <form className={styles.form}>
                 <label 
                     htmlFor="bill"
@@ -21,7 +21,6 @@ export default function Bill(){
                     required
                 />
                 </div>
-                
             </form>
         </div>
     )
