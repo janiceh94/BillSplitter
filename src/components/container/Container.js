@@ -4,7 +4,12 @@ import Bill from "../bill/Bill";
 export default function Container(){
     return (
         <div className={styles.container}>
-            <Bill/>
+            <div>
+                <Bill/>
+            </div>
+            <div>
+                
+            </div>
         </div>
     )
 }

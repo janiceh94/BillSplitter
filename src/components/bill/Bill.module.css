@@ -1,0 +1,24 @@
+.form{
+    display: grid;
+    margin: 25px 10% 0 10%;
+    font-weight: 300;
+}
+.form label{
+    padding-bottom: 5px;
+}
+.moneySign{
+    position: absolute;
+    display: flex;
+    margin-top: 0.5em;
+    color: gray
+}
+.form input{
+    background-color: rgba(223, 250, 243, 0.459);
+    border: none;
+    padding: 10px;
+    border-radius:5px;
+    width: 100%;
+}
+input{
+    text-align: right;
+}
