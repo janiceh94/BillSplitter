@@ -1,0 +1,21 @@
+.totalContainer{
+    background-color: rgb(18, 105, 81);
+    margin: 25px 10% 0 10%;
+    border-radius: 10px;
+    height: 87%;
+}
+.resetBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+.btn{
+    background-color:rgba(32, 135, 106, 0.832); 
+    width: 85%;
+    color: rgba(13, 107, 80, 0.832); 
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(75, 221, 180, 0.832);
+    color: black;
+}
