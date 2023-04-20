@@ -7,11 +7,11 @@
 .tips{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 0 10% 0 10%;
+    margin-left: 10%;
 }
 .label{
     font-weight: 400;
-    margin: 0 10% 5px 10%;
+    margin: 0 0 5px 10%;
 }
 button{
     background-color: rgb(18, 105, 81);
@@ -23,6 +23,20 @@ button{
     font-weight: 600;
     font-size: large;
 }
-input{
-    width: 100%;
+button:hover{
+    cursor: pointer;
+    background-color: rgba(75, 221, 180, 0.832);
+    color: black;
+}
+.tipInput{
+    width: 95%;
+    border-radius: 5px;
+    border: none;
+    background: rgba(129, 190, 174, 0.258);
+    margin: 3px;
+    font-size: large;
+    font-weight: 600;
+}
+.tipInput:hover{
+    cursor: pointer;
 }

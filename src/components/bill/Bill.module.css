@@ -3,7 +3,7 @@
 }
 .form{
     display: grid;
-    margin: 25px 10% 0 10%;
+    margin: 25px 0 0 10%;
     font-weight: 400;
 }
 .form label{
@@ -12,11 +12,11 @@
 .moneySign{
     position: absolute;
     display: flex;
-    margin-top: 0.5em;
+    margin: 0.7em 0 0 0.7em;
     color: gray
 }
 .form input{
-    background-color: rgba(223, 250, 243, 0.459);
+    background-color: rgba(129, 190, 174, 0.258);
     border: none;
     padding: 10px;
     border-radius:5px;

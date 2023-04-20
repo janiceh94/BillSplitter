@@ -37,6 +37,7 @@ export default function Tip(){
                         24%
                     </button>
                     <input
+                        className={styles.tipInput}
                         type="number"
                         placeholder="Custom"
                     />
