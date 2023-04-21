@@ -4,10 +4,32 @@
     border-radius: 10px;
     height: 87%;
 }
+.calculation{
+    margin: 0 10% 0 10%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+.title{
+    color: white;
+}
+.title, .amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+.perPerson{
+    color: rgba(32, 135, 106, 0.832); 
+}
+.amount{
+    color: rgba(75, 221, 180, 0.832);
+    font-weight: 700;
+    font-size: 2em;
+}
 .resetBtn{
     display: flex;
     justify-content: center;
-    margin-top: 180px;
+    margin-top: 5em;
 }
 .btn{
     background-color:rgba(32, 135, 106, 0.832); 
@@ -18,4 +40,8 @@
     cursor: pointer;
     background-color: rgba(75, 221, 180, 0.832);
     color: black;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
